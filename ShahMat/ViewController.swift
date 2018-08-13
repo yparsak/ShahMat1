@@ -3,7 +3,7 @@
 //  ShahMat
 //
 //  Created by Y. Parsak on 8/10/18.
-//  Copyright © 2018 Yucel Parsak. All rights reserved.
+//  Copyright © 2018 Y. Parsak. All rights reserved.
 //
 
 import UIKit
