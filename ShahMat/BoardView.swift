@@ -2,7 +2,7 @@
 //  BoardView.swift
 //  ShahMat
 //
-//  Created by Yucel Parsak on 8/10/18.
+//  Created by Y. Parsak on 8/10/18.
 //  Copyright © 2018 Yucel Parsak. All rights reserved.
 //
 
