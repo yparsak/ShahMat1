@@ -37,7 +37,7 @@ class BoardView: UIView {
         rank_text.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
         self.addSubview(rank_text)
         
-        let file_text = UITextField(frame: CGRect(x: x + (height/2), y: y, width: height, height: height))
+        let file_text = UITextField(frame: CGRect(x: x + (height/3), y: y, width: height/2, height: height))
         file_text.placeholder = file
         file_text.font = UIFont.systemFont(ofSize: 20)
         file_text.borderStyle = UITextBorderStyle.none
