@@ -23,21 +23,19 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        // Top %80 Board
         DrawBoard()
+        // Bottom %20 Menu
+        // TODO: DrawMenu()
     }
     
     func DrawBoard() {
-
         let height = self.view.bounds.height - self.view.safeAreaInsets.top - self.view.safeAreaInsets.bottom
-
-        // Top %80 Board
         let board = BoardView(
             frame: CGRect(x: self.view.safeAreaInsets.left,
                           y: self.view.safeAreaInsets.top,
                           width: self.view.bounds.width - self.view.safeAreaInsets.left - self.view.safeAreaInsets.right,
                           height:  height * (80/100)))
         self.view.addSubview(board)
-        // Bottom %20 Menu
-        // TODO:
     }
 }
